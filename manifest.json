@@ -23,7 +23,7 @@
 	"background": {
 		"page": "background.html"
 	},
-	"homepage_url": "http://path/to/homepage",
+	"homepage_url": "https://github.com/serjflint/NovelUpdates-Notificator",
 	"incognito": "not_allowed",
 	"minimum_chrome_version": "47",
 	"offline_enabled": false,
