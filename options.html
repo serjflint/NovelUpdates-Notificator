@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>NovelUpdates Notificator Options</title>
+
+  <link rel="stylesheet" href="options.css">
+</head>
+
+<body>
+  <p>
+    <label>    
+      Reading list URL:<br>
+      http://www.novelupdates.com/readlist/?uid=
+      <input id="UID" type="text" name="UID">
+    </label>
+    <br>
+    <span style="font-size: 0.8em;">Info: List should be made public in "Global Settings".</span>
+  </p>
+
+  <p>
+    <label>
+      Check updates every 
+      <input id="timeout" type="number" min="1">
+      minutes.
+    </label>
+  </p>
+
+  <p>
+    <label>
+      <button id="save">Save</button>
+      <span id="status"></span>
+    </label>
+  </p>
+
+  <script src="jquery-3.2.1.min.js"></script>
+  <script src="options.js"></script>
+</body>
+</html>
